@@ -168,6 +168,7 @@ footer {
   from {
     left: 0;
   }
+  
   to {
     left: 50%;
   }
@@ -177,6 +178,7 @@ footer {
   from {
     left: 50%;
   }
+
   to{
     left: 0;
   }
