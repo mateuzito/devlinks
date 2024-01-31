@@ -82,11 +82,6 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
-/* Animation on Mobile Devices */
-#switch button:active {
-  outline: 8px solid var(--highlight-color);
-}
-
 /* Computer animation */
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
@@ -123,14 +118,9 @@ ul li a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   text-decoration: none;
+  outline: none;
   font-weight: 500;
   transition: background 0.2s;
-}
-
-/* Animation on Mobile Devices */
-ul li a:active {
-  background-color: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
 }
 
 /* Computer animation */
@@ -155,11 +145,6 @@ ul li a:hover {
   border-radius: 50%;
 }
 
-/* Animation on Mobile Devices */
-#social-links a:active {
-  background: var(--highlight-color)
-}
-
 /* Computer animation */
 #social-links a:hover {
   background: var(--highlight-color);
@@ -182,6 +167,7 @@ footer {
   }
 }
 
+/* adaptation for mobile devices to use the website horizontally */
 @media (max-width: 949px) {
   :root {
     --bg-url : url(./assets/bg-mobile.jpg);
