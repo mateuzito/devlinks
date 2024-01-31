@@ -172,13 +172,23 @@ footer {
 }
 
 /* media queries */
-@media (min-width: 700px) {
+@media (min-width: 950px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+@media (max-width: 949px) {
+  :root {
+    --bg-url : url(./assets/bg-mobile.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
   }
 }
 
