@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- HEAD ICON -->
+    <link
+      rel="icon"
+      href="./assets/Mateus Silva Icon.png"
+      type="image/x-icon"
+    />
+    <!-- HEAD ICON END -->
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS END -->
+
     <title>DevLinks</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/Mateus Silva Icon.png"
-type="image/x-icon">    
   </head>
   <body>
+    <!-- WEBSITE CONTENT -->
     <div id="container">
+      <!-- PROFILE -->
       <div id="profile">
         <img
           src="./assets/avatar.png"
@@ -21,29 +36,32 @@ type="image/x-icon">
         />
         <p>@mateuslas</p>
       </div>
+      <!-- PROFILE END -->
 
+      <!-- THEME SWITCH BUTTON -->
       <div id="switch">
         <button onclick="toggleMode()"></button>
         <span></span>
       </div>
+      <!-- THEME SWITCH BUTTON END -->
 
+      <!-- BAR-SHAPED LINKS -->
       <ul>
         <li>
-          <a href="#">Em Breve</a>
+          <a href="https://teuzinfotografia.netlify.app/" target="_blank"
+            >Meu site de fotografia</a
+          >
         </li>
 
         <li>
-          <a href="https://teuzinfotografia.netlify.app/" target="_blank">Meu site de fotografia</a>
-        </li>
-
-        <li>
-          <a href="https://github.com/mateuzito" target="_blank">Veja meu portfólio</a>
-        </li>
-
-        <li>
-          <a href="https://rocketseat.com.br/explorer" target="_blank">Conheça o Explorer</a>
+          <a href="https://github.com/mateuzito" target="_blank"
+            >Veja meu portfólio</a
+          >
         </li>
       </ul>
+      <!-- BAR-SHAPED LINKS END -->
+
+      <!-- LINKS IN ICONS -->
       <div id="social-links">
         <a href="https://github.com/mateuzito" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
@@ -61,15 +79,20 @@ type="image/x-icon">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div>
-
-      <footer>
-        Feito com ♥ pela <a href="https://rocketseat.com.br/
-        ">Rocketseat</a>
-      </footer>
+      <!-- LINKS IN ICONS END -->
     </div>
+    <!-- WEBSITE CONTENT END -->
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- ICON CODE -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- ICON CODE END -->
 
     <script src="script.js"></script>
   </body>
