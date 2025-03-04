@@ -30,6 +30,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://unpkg.com/i18next@23.11.5/dist/umd/i18next.min.js"></script>
   </head>
 
   <body>
@@ -37,18 +38,15 @@
     <main id="container">
       <!-- Profile section with photo and username -->
       <header id="profile">
-        <img
-          src="./assets/images/avatar.png"
-          alt="Photo of Mateus Silva serious, wearing glasses and gray shirt, mustache, and white background"
-        />
-        <p>@mateuslas</p>
+        <img src="./assets/images/avatar.png" data-i18n="[alt]profile.alt" />
+        <p data-i18n="profile.username">@mateuslas</p>
       </header>
 
       <!-- Button to toggle light/dark theme -->
       <div id="switch">
         <button
           onclick="toggleMode()"
-          aria-label="Toggle light/dark theme"
+          data-i18n="[aria-label]switch.ariaLabel"
         ></button>
         <span></span>
       </div>
@@ -60,6 +58,7 @@
             href="https://mateussilva.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
+            data-i18n="links.portfolio"
             >My Portfolio</a
           >
         </li>
@@ -68,6 +67,7 @@
             href="https://teuzinfotografia.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
+            data-i18n="links.photography"
             >Photography Website</a
           >
         </li>
@@ -76,6 +76,7 @@
             href="https://geradordecodeqr.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
+            data-i18n="links.qrCode"
             >QR Code Generator</a
           >
         </li>
@@ -84,6 +85,7 @@
             href="https://github.com/mateuzito"
             target="_blank"
             rel="noopener noreferrer"
+            data-i18n="links.github"
             >See my GitHub</a
           >
         </li>

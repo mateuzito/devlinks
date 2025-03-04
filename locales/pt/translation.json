@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "username": "@mateuslas",
+    "alt": "Foto de Mateus Silva sério, usando óculos e camisa cinza, bigode e fundo branco",
+    "altLight": "Foto de Mateus Silva sério, usando óculos e camisa cinza, bigode e fundo rosa claro"
+  },
+  "links": {
+    "portfolio": "Meu Portfólio",
+    "photography": "Site de Fotografia",
+    "qrCode": "Gerador de QR Code",
+    "github": "Veja meu GitHub"
+  },
+  "switch": {
+    "ariaLabel": "Alternar tema claro/escuro"
+  }
+}

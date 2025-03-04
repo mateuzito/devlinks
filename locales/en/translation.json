@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "username": "@mateuslas",
+    "alt": "Photo of Mateus Silva serious, wearing glasses and gray shirt, mustache, and white background",
+    "altLight": "Photo of Mateus Silva serious, wearing glasses and gray shirt, mustache, and light pink background"
+  },
+  "links": {
+    "portfolio": "My Portfolio",
+    "photography": "Photography Website",
+    "qrCode": "QR Code Generator",
+    "github": "See my GitHub"
+  },
+  "switch": {
+    "ariaLabel": "Toggle light/dark theme"
+  }
+}
