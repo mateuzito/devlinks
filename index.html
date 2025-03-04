@@ -1,77 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+
+    <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
-      href="./assets/Mateus Silva Icon.png"
+      href="./assets/images/mateus-icon.png"
       type="image/x-icon"
     />
-    <title>DevLinks</title>
+
+    <!-- Ionicons scripts for social media icons -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
-    <div id="container">
-      <div id="profile">
+    <!-- Main content container -->
+    <main id="container">
+      <!-- Profile section with photo and username -->
+      <header id="profile">
         <img
-          src="./assets/avatar.png"
-          alt="Foto de Mateus Silva sério, usando óculos e camisa cinza, bigode e fundo branco."
-          alt="Foto de Mateus Silva sério, usando óculos e camisa cinza, bigode e fundo rosa claro."
+          src="./assets/images/avatar.png"
+          alt="Photo of Mateus Silva serious, wearing glasses and gray shirt, mustache, and white background"
         />
         <p>@mateuslas</p>
-      </div>
+      </header>
 
+      <!-- Button to toggle light/dark theme -->
       <div id="switch">
-        <button onclick="toggleMode()"></button>
+        <button
+          onclick="toggleMode()"
+          aria-label="Toggle light/dark theme"
+        ></button>
         <span></span>
       </div>
 
+      <!-- List of main links -->
       <ul>
         <li>
           <a
             href="https://mateussilva.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            >Meu Portfólio</a
+            >My Portfolio</a
           >
         </li>
-
         <li>
           <a
             href="https://teuzinfotografia.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            >Site de Fotografia</a
+            >Photography Website</a
           >
         </li>
-
         <li>
           <a
             href="https://geradordecodeqr.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            >Gerador de QR Code</a
+            >QR Code Generator</a
           >
         </li>
-
         <li>
           <a
             href="https://github.com/mateuzito"
             target="_blank"
             rel="noopener noreferrer"
-            >Veja meu GitHub</a
+            >See my GitHub</a
           >
         </li>
       </ul>
-      <div id="social-links">
+
+      <!-- Social media links -->
+      <footer id="social-links">
         <a
           href="https://github.com/mateuzito"
           target="_blank"
@@ -79,7 +98,6 @@
         >
           <ion-icon name="logo-github"></ion-icon>
         </a>
-
         <a
           href="https://instagram.com/mateuslas"
           target="_blank"
@@ -87,7 +105,6 @@
         >
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
-
         <a
           href="https://x.com/mateuzitosilva"
           target="_blank"
@@ -95,7 +112,6 @@
         >
           <ion-icon name="logo-twitter"></ion-icon>
         </a>
-
         <a
           href="https://linkedin.com/in/mateuslas"
           target="_blank"
@@ -103,17 +119,8 @@
         >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-      </div>
-    </div>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+      </footer>
+    </main>
 
     <script src="script.js"></script>
   </body>

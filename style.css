@@ -1,39 +1,45 @@
+/* Reset default styles for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Define global variables for dark theme */
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./assets/backgrounds/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/icons/moon-stars.svg);
 }
 
+/* Override variables for light theme */
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/backgrounds/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./assets/icons/sun.svg);
 }
 
+/* Style the body with background and full height */
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
 
+/* Apply font and text color to all body elements */
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
 
+/* Center the main container with max width */
 #container {
   width: 100%;
   max-width: 588px;
@@ -41,7 +47,7 @@ body * {
   padding: 0 24px;
 }
 
-/* profile */
+/* Profile section styling */
 #profile {
   text-align: center;
   padding: 24px;
@@ -57,7 +63,7 @@ body * {
   margin-top: 8px;
 }
 
-/* switch */
+/* Theme switch button styling */
 #switch {
   position: relative;
   width: 64px;
@@ -82,7 +88,7 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
-/* Computer animation */
+/* Hover effect for switch button on desktop */
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
@@ -98,7 +104,7 @@ body * {
   border-radius: 9999px;
 }
 
-/* Links */
+/* Main links list styling */
 ul {
   list-style: none;
   display: flex;
@@ -123,12 +129,13 @@ ul li a {
   transition: background 0.2s;
 }
 
-/* Computer animation */
+/* Hover effect for links on desktop */
 ul li a:hover {
   background-color: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
+/* Social links section styling */
 #social-links {
   display: flex;
   justify-content: center;
@@ -145,34 +152,23 @@ ul li a:hover {
   border-radius: 50%;
 }
 
-/* Computer animation */
+/* Hover effect for social links on desktop */
 #social-links a:hover {
   background: var(--highlight-color);
 }
 
-/* media queries */
+/* Responsive background for desktop screens */
 @media (min-width: 950px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/backgrounds/bg-desktop.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/backgrounds/bg-desktop-light.jpg);
   }
 }
 
-/* adaptation for mobile devices to use the website horizontally */
-@media (max-width: 949px) {
-  :root {
-    --bg-url: url(./assets/bg-mobile.jpg);
-  }
-
-  .light {
-    --bg-url: url(./assets/bg-mobile-light.jpg);
-  }
-}
-
-/* animation */
+/* Animation for theme switch button sliding in */
 @keyframes slide-in {
   from {
     left: 0;
@@ -183,6 +179,7 @@ ul li a:hover {
   }
 }
 
+/* Animation for theme switch button sliding back */
 @keyframes slide-back {
   from {
     left: 50%;

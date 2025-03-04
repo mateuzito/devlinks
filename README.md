@@ -1,47 +1,62 @@
-<h1 align="center"> DevLinks </h1>
+# DevLinks
 
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
-</p>
+A link aggregator page built as an online business card, developed during a Rocketseat course.
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+## **Preview**
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+![Project Preview](./assets/images/preview.jpg)
 
-<br>
+## 💡 **Features**
 
-<p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p>
+- Toggle between light and dark themes
+- Responsive design for mobile and desktop
+- Social media icons with hover effects
 
-## 🚀 Tecnologias
+## 🚀 **Technologies**
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was built using the following technologies:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+- **HTML5** and **CSS3**
+- **JavaScript**
+- **Git** and **GitHub**
+- **Figma**
 
-## 💻 Projeto
+## 💻 **Project**
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+DevLinks is a simple tool to aggregate links, designed to serve as an online business card for showcasing projects and social profiles.
 
-## 🔖 Layout
+## 📱 **Layout**
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gRzxAc5PXhPJgVkN0Xki65/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=0%3A1&mode=design&t=eOxjCko2SVR6fxoQ-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout on [Figma](<https://www.figma.com/file/gRzxAc5PXhPJgVkN0Xki65/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&node-id=0%3A1&mode=design&t=eOxjCko2SVR6fxoQ-1>). A [Figma](https://figma.com) account is required to access it.
 
-## :memo: Licença
+## **Setup**
 
-Esse projeto está sob a licença MIT.
+To run this project locally:
 
----
+1. Clone the repository:
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+```bash
+git clone https://github.com/mateuzito/devlinks.git
+```
+
+2. Open
+
+```bash
+index.html
+```
+
+in a web browser.
+
+## **Deployment**
+
+Check the live version: [https://mateussilva.vercel.app](https://mateussilva.vercel.app)
+
+## :memo: **License**
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000)
+
+## **Author**
+
+Created by Mateus Silva ([@mateuzito](https://github.com/mateuzito)) during Rocketseat's free web development program.  
+Made with ♥ by Rocketseat :wave: [Join their community!](https://discord.gg/rocketseat)
